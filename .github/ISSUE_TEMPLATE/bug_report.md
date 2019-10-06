@@ -30,7 +30,8 @@ Before submitting an issue, please review the various support plans available at
 #### Context
 
 * *node version*: 
-* *module version*: 
+* *module version with issue*: 
+* *last module version without issue*: 
 * *environment* (e.g. node, browser, native): 
 * *used with* (e.g. hapi application, another framework, standalone, ...):
 * *any other relevant information*:
