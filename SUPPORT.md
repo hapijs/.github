@@ -11,4 +11,4 @@ Like all open source projects, free support is constrained by the availability o
 
 ## Commercial Support
 
-When free support is not enough, commercial licensing and support plans are available. Please visit the [hapi support page](https://hapi.dev/support/) for more information and pricing.
+Commercial licensing and support is available for legacy versions (v16, v17, v18, and v19). Please visit the [hapi support page](https://hapi.dev/support/) for more information.
