@@ -9,12 +9,9 @@
 <!--
 We are here to help!
 
-You do not need to pay to receive support. Free community based support is, by its nature, limited to available community members able to help. Most community support issues are resolved within 2 weeks.
-
-Before submitting an issue, please review the various support plans available at https://hapi.dev/support/. That page includes useful information about faster and free channels to ask questions, as well as priority support options to meet you needs.
+Community based support is, by its nature, limited to available community members able to help. Most community support issues are resolved within 2 weeks. Before submitting an issue, please review the various support options available at https://hapi.dev/support/. That page includes useful information about different ways to ask questions.
 -->
 
-* *which support plan is this issue covered by?* (e.g. Community, Core, Plus, or Enterprise): 
 * *is this issue currently blocking your project?* (yes/no):
 * *is this issue affecting a production system?* (yes/no):
 
