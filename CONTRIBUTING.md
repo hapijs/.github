@@ -2,7 +2,7 @@
 
 Community contributions are always welcomed and appreciated.
 
-In most cases, it is best to **ask first** about making a contribution rather than spending valuable time on a contribution that might not be accepted. As a general rule, tests and documentation improvements are the preferred way to contribute. Bug fixes and new feature are best discussed as an issue first as they **rarely get merged from outside contributors**. That said, contributing great requirements, clear use cases, and reusable test cases goes a long way to get the fix or feature you want implemented.
+If you plan to contribute a new feature it's best to **ask first** rather than spending valuable time on a contribution that might not be accepted. Bug fixes, tests, and documentation improvements are the preferred way to contribute and are greatly appreciated.
 
 When making any contribution, the submitted code, text, and all other materials are considered to be covered under the BSD 3-Clause license included with each module. Contributions are generally acknowledged only in the GitHub Contributors page and are referred to as Project Contributors in the license file. **Do not make any contribution or open any issue if you do not agree to license all such materials under the BSD 3-Clause license.**
 
