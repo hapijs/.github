@@ -1,44 +1,134 @@
-# Code of Conduct
+# Contributor Covenant Code of Conduct
 
-This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior. We invite all those who participate in the hapi project to help us create a safe and productive experiences for everyone, regardless of gender, gender identity, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
+## Our Pledge
 
-Respect that people have differences of opinion and that every design or implementation choice carries a trade-off and numerous costs. There is seldom a single right answer, but nevertheless, the project maintainers have the final say even when you disagree.
+We as members, contributors, and leaders pledge to make participation in our
+community a harassment-free experience for everyone, regardless of age, body
+size, visible or invisible disability, ethnicity, sex characteristics, gender
+identity and expression, level of experience, education, socio-economic status,
+nationality, personal appearance, race, religion, or sexual identity
+and orientation.
 
-## Disclaimer
+We pledge to act and interact in ways that contribute to an open, welcoming,
+diverse, inclusive, and healthy community.
 
-The hapi organization's repositories, websites, Slack channels, and other venues of interaction are not public places, even when they are hosted by public services. You are a guest and expected to behave as if you are visiting someone else's home. In this case, the project maintainers' home.
+## Our Standards
 
-The hapi project is managed under the [BDFL model](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life). If you are unwilling to accept the final decision of the maintainers, your only acceptable recourse is to leave. The code is licensed under a liberal open source license allowing you to fork and make the changes you wish elsewhere.
+Examples of behavior that contributes to a positive environment for our
+community include:
+
+* Demonstrating empathy and kindness toward other people
+* Being respectful of differing opinions, viewpoints, and experiences
+* Giving and gracefully accepting constructive feedback
+* Accepting responsibility and apologizing to those affected by our mistakes,
+  and learning from the experience
+* Focusing on what is best not just for us as individuals, but for the
+  overall community
+
+Examples of unacceptable behavior include:
+
+* The use of sexualized language or imagery, and sexual attention or
+  advances of any kind
+* Trolling, insulting or derogatory comments, and personal or political attacks
+* Public or private harassment
+* Publishing others' private information, such as a physical or email
+  address, without their explicit permission
+* Other conduct which could reasonably be considered inappropriate in a
+  professional setting
+
+## Enforcement Responsibilities
+
+Community leaders are responsible for clarifying and enforcing our standards of
+acceptable behavior and will take appropriate and fair corrective action in
+response to any behavior that they deem inappropriate, threatening, offensive,
+or harmful.
+
+Community leaders have the right and responsibility to remove, edit, or reject
+comments, commits, code, wiki edits, issues, and other contributions that are
+not aligned to this Code of Conduct, and will communicate reasons for moderation
+decisions when appropriate.
 
 ## Scope
 
-This policy applies to any interaction with other hapi community members. Whether on GitHub, Twitter, IRC, Slack, or any other venue, your actions matter. We expect all members of the hapi community, to behave respectfully to others regardless of venue and regardless whether the communication is about the hapi project or not.
+This Code of Conduct applies within all community spaces, and also applies when
+an individual is officially representing the community in public spaces.
+Examples of representing our community include using an official e-mail address,
+posting via an official social media account, or acting as an appointed
+representative at an online or offline event.
 
-Expressing opinions which may offend others in public or in private may trigger a policy violation review. Our goal is to provide a safe environment and when a conflict arises between one person's freedom of expression and another's sense of safety, we will take the necessary actions to ensure the project remains a safe environment for all.
+## Enforcement
 
-## Unacceptable Behavior
+Instances of abusive, harassing, or otherwise unacceptable behavior may be
+reported to the community leaders responsible for enforcement at
+tsc@hapi.dev.
+All complaints will be reviewed and investigated promptly and fairly.
 
-The following behaviors are considered harassment and are unacceptable within our community:
+All community leaders are obligated to respect the privacy and security of the
+reporter of any incident.
 
-- Violence, threats of violence or violent language directed against another person.
-- Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
-- Posting or displaying sexually explicit or violent material.
-- Posting or threatening to post other people's personally identifying information ("doxing").
-- Personal insults, particularly those related to gender, gender identity, sexual orientation, race, religion, or disability.
-- Inappropriate photography or recording.
-- Inappropriate physical contact. You should have someone's consent before touching them.
-- Unwelcome sexual attention. This includes, sexualized comments or jokes, inappropriate touching, groping, and unwelcomed sexual advances.
-- Deliberate intimidation, stalking or following (online or in person).
-- Advocating for, or encouraging, any of the above behavior.
+## Enforcement Guidelines
 
-## Consequences of Unacceptable Behavior
+Community leaders will follow these Community Impact Guidelines in determining
+the consequences for any action they deem in violation of this Code of Conduct:
 
-Unacceptable behavior will not be tolerated.
+### 1. Correction
 
-When possible, a warning will be given before taking other actions. Anyone asked to stop unacceptable behavior is expected to comply immediately. If you disagree, first take steps to suspend and remove the offending materials or actions, then raise your objections in a polite and appropriate manner. If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should reach out via the contacts below with a description of your grievance.
+**Community Impact**: Use of inappropriate language or other behavior deemed
+unprofessional or unwelcome in the community.
 
-If a community member engages in unacceptable behavior, the maintainers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning. A person's past contribution to the hapi project will not be considered when evaluating their behavior.
+**Consequence**: A private, written warning from community leaders, providing
+clarity around the nature of the violation and an explanation of why the
+behavior was inappropriate. A public apology may be requested.
 
-## Contact Information
+### 2. Warning
 
-You may contact one or more of the listed [team members](https://github.com/orgs/hapijs/people) or support@sideway.com.
+**Community Impact**: A violation through a single incident or series
+of actions.
+
+**Consequence**: A warning with consequences for continued behavior. No
+interaction with the people involved, including unsolicited interaction with
+those enforcing the Code of Conduct, for a specified period of time. This
+includes avoiding interactions in community spaces as well as external channels
+like social media. Violating these terms may lead to a temporary or
+permanent ban.
+
+### 3. Temporary Ban
+
+**Community Impact**: A serious violation of community standards, including
+sustained inappropriate behavior.
+
+**Consequence**: A temporary ban from any sort of interaction or public
+communication with the community for a specified period of time. No public or
+private interaction with the people involved, including unsolicited interaction
+with those enforcing the Code of Conduct, is allowed during this period.
+Violating these terms may lead to a permanent ban.
+
+### 4. Permanent Ban
+
+**Community Impact**: Demonstrating a pattern of violation of community
+standards, including sustained inappropriate behavior,  harassment of an
+individual, or aggression toward or disparagement of classes of individuals.
+
+**Consequence**: A permanent ban from any sort of public interaction within
+the community.
+
+## Attribution
+
+This Code of Conduct is adapted from the [Contributor Covenant][homepage],
+version 2.0, available at
+https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
+
+Community Impact Guidelines were inspired by [Mozilla's code of conduct
+enforcement ladder](https://github.com/mozilla/diversity).
+
+
+For answers to common questions about this code of conduct, see the FAQ at
+https://www.contributor-covenant.org/faq. Translations are available at
+https://www.contributor-covenant.org/translations.
+
+## Appendix A: The tsc@hapi.dev Alias
+
+*Note*: At the current time, all email sent to the `tsc@hapi.dev` email
+alias is copied to all members of the [hapi Technical Steering Committee](README.md#tsc-members).
+
+[homepage]: https://www.contributor-covenant.org
