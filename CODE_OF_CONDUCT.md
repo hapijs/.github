@@ -126,9 +126,9 @@ For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq. Translations are available at
 https://www.contributor-covenant.org/translations.
 
-## Appendix A: The tsc@hapi.dev Alias
+## Appendix A: The TSC Alias
 
 *Note*: At the current time, all email sent to the `tsc@hapi.dev` email
-alias is copied to all members of the [hapi Technical Steering Committee](README.md#tsc-members).
+alias is copied to all members of the [hapi Technical Steering Committee](https://github.com/hapijs/.github/blob/master/README.md#tsc-members).
 
 [homepage]: https://www.contributor-covenant.org
