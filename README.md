@@ -9,7 +9,6 @@ The hapi community consists (non-exclusively) of participants in GitHub issues a
  - Jonas Pauthier ([@nargonath](https://github.com/nargonath))
  - Lloyd Benson ([@lloydbenson](https://github.com/lloydbenson))
  - Nathan LaFreniere ([@nlf](https://github.com/nlf))
- - Peter Henning ([@petreboy14](https://github.com/petreboy14))
  - Wyatt Lyon Preul ([@geek](https://github.com/geek))
  - Colin Ihrig ([@cjihrig](https://github.com/cjihrig))
 
