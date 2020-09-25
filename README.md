@@ -17,3 +17,6 @@ The hapi community consists (non-exclusively) of participants in GitHub issues a
 
 ## Security and Disclosure
 > See [SECURITY.md](SECURITY.md)
+
+## Maintenance of Issues, PRs, and Releases
+> See [MAINTENANCE.md](MAINTENANCE.md)
