@@ -11,21 +11,23 @@ Labels are standardized through [organization defaults](https://docs.github.com/
  - `security` - indication of security implications.
  - `feature` - requests for new functionality.
  - `release notes` - documentation of changes in major releases, sometimes accompanied by a migration guide.
- - `documentation` - non-code related changes to the readme, API docs, or similar.
- - `dependency` - changes to underlying or peer dependencies.
+ - `documentation` - non-code related changes to the README, API docs, or similar.
+ - `dependency` - changes to dependencies.
  - `breaking changes` - indication of a breaking change in behavior, principally for major releases.
  - `help wanted` - signals that it's welcome for any community member to offer a PR or otherwise help to resolve the issue.
 
 Every issue and pull request should have at least one label attributed to it.  The labels for an issue may change over time.  When a pull request addresses a particular issue, it will often have the same labels as that issue.
 
 ### The Connection to Releases
-We associate PRs and issues to released versions of our modules in order to leave a paper trail for users that includes code, documentation, and discussion.  It can also be interpreted programmatically to e.g. display automatically-generated changelogs on the website as can be seen [here for boom](https://hapi.dev/module/boom/changelog/).
+We associate PRs and issues to released versions of our modules in order to leave a paper trail for users that includes code, documentation, and discussion.  It can also be interpreted programmatically to e.g. display automatically generated changelogs on the website as can be seen [here for boom](https://hapi.dev/module/boom/changelog/).
 
 #### Milestones
 When a PR is merged or issue is closed, it should be associated with a [milestone](https://github.com/hapijs/hapi/milestones) for the version of the module in which the corresponding work will be released.  All merged PRs should be associated with a milestone, and all issues resolved by a merged PR or a commit should have a milestone.  Milestones are named by the full semver version of the release, e.g. `2.1.0`, `0.1.1`, `9.0.0`.  When the version is published, that milestone should be closed.  There should never be zero open milestones for a given module: when one milestone is closed, a new one is created for the next patch version.  For example, once `2.1.0` is released then the milestone for that version will be closed and a new milestone for `2.1.1` will be created.
 
+This organization of issues into milestones is central to generating the module changelogs found on [hapi.dev](https://hapi.dev), and to creating transparency around what is contained in each release.
+
 #### Release Notes
-It is encouraged to write-up an issue with release notes for major changes, especially for modules that are intended to be used externally to the organization (e.g. hapi, bell, nes) versus hapi core (e.g. pez, topo, shot).  The [hapijs/hapi](https://github.com/hapijs/hapi) repository should have release notes for every major version of the framework.  [This](https://github.com/hapijs/hapi/issues/4017) is a great example of typical release note format and ideal level of detail.
+It is encouraged to create an issue with release notes for major changes, especially for modules that are intended to be used externally to the organization (e.g. hapi, bell, nes) versus hapi core (e.g. pez, topo, shot).  The [hapijs/hapi](https://github.com/hapijs/hapi) repository should have release notes for every major version of the framework.  [This](https://github.com/hapijs/hapi/issues/4017) is a great example of typical release note format and ideal level of detail.
 
 ### Assignees
 The collaborator responsible for final review and merge of pull requests should mark themselves as the "assignee."  This leaves an at-a-glance paper trail primarily for convenience ("who understands the changes made in #365?"), and is in recognition of that person's involvement/contribution.  When a collaborator closes an issue that they were responsible for resolving (e.g. answered a user's support question), they may also mark themselves as the assignee.
@@ -35,7 +37,7 @@ The collaborator responsible for final review and merge of pull requests should 
 
  - Support issues without any response should remain open for two weeks then may be closed.
  - If a support issue doesn't contain a sufficient reproduction it may be closed immediately with a comment.
- - Any effort at resolving a support issue makes it eligible for being closed.  It's useful to point folks to the hapi hour slack for further support.
+ - Any effort at resolving a support issue makes it eligible for being closed.  It's useful to point folks to the hapi hour slack for further support.  It is welcome for discussion to continue on the closed issue.
  - Any issue that doesn't follow the relevant issue template may be closed immediately, optionally with a comment indicating to re-file the issue following the template.
  - Feature requests that will not be satisfied may be closed with comment.
  - Bugs should remain open until resolved.
