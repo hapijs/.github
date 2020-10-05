@@ -45,15 +45,18 @@ The collaborator responsible for final review and merge of pull requests should 
  - PRs that will not be accepted may be closed with a comment.  If a PR is replaced, the new PR should be referenced in a comment.
 
 ## Releases
-When a new version of a module is ready to be published, we adhere to the following release process:
+A release consists of 1. publishing a module to npm following [semver](https://semver.org/), and 2. an annotated tag in GitHub marking the release.  The hapi organization takes the integrity of releases very seriously.  For this reason only a small subset of maintainers have publish access, typically constrained to members of the TSC.  We additionally require publishers to utilize 2FA on both GitHub and most importantly on npm.
 
- - Ensure the main branch of the repository has passing tests in Travis CI.
- - Clone the repository locally if you haven't already.
- - Navigate to the repository on your machine locally.
- - Ensure you've checked-out the main branch and `git pull`.
- - Ensure there are no changes made locally using `git status`.  There should be no modifications or untracked files.
- - Update `version` in package.json with a new commit marked by an annotated tag using `npm version major|minor|patch`, depending on whether the version contains breaking changes, new features, or only fixes per [semver](https://semver.org/).
- - Push the new commit and the new tag using `git push && git push --tags`.
- - When you're ready to publish to npm run `npm publish`.  Make sure to have your one-time password handy.
- - Close the [milestone](https://github.com/hapijs/hapi/milestones) for the released version in GitHub, and create a new milestone for the next patch version.
- - Optionally upgrade the tag to a release in GitHub, including a summary of the changes.  You may do this by navigating to the tag found [here](https://github.com/hapijs/hapi/tags) then clicking the "Edit tag" button.  Upon save the tag should become a GitHub release.
+### Guide
+When a new version of a module is ready to be published, _the releaser_ adheres to the following release process:
+
+ - The releaser ensures the main branch of the repository has passing tests in Travis CI.
+ - Clones the repository locally if they haven't already.
+ - Navigates to the repository on their machine locally.
+ - Ensures they've checked-out the main branch and `git pull`.
+ - Ensures there are no changes made locally using `git status`.  There should be no modifications or untracked files.
+ - Updates `version` in package.json with a new commit marked by an annotated tag using `npm version major|minor|patch`, depending on whether the version contains breaking changes, new features, or only fixes per [semver](https://semver.org/).
+ - Pushes the new commit and the new tag using `git push && git push --tags`.
+ - When the releaser is ready to publish to npm they run `npm publish`.  They will be utilizing 2FA so will need to have their one-time password at hand.  If the releaser happens to be publishing an older LTS version then the published version should not be tagged on npm as "latest", so a tag needs to be specified explicitly: `npm publish --tag=lts`.
+ - Closes the [milestone](https://github.com/hapijs/hapi/milestones) for the released version in GitHub, and creates a new milestone for the next patch version.
+ - Optionally upgrades the tag to a release in GitHub, including a summary of the changes.  One may do this by navigating to the tag found [here](https://github.com/hapijs/hapi/tags) then clicking the "Edit tag" button.  Upon save the tag should become a GitHub release.
