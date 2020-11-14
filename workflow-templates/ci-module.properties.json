@@ -1,7 +1,7 @@
 {
   "name": "Hapijs CI Module Workflow",
   "description": "Workflow template for repository that are hapi's core dependency, meaning they're in dependencies property of hapi's package.json",
-  "iconName": "hapi.svg",
+  "iconName": "hapi",
   "categories": ["JavaScript"],
   "filePatterns": ["package.json$"]
 }
