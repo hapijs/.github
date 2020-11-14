@@ -1,7 +1,7 @@
 {
   "name": "Hapijs CI Plugin Workflow",
   "description": "Workflow template for repository that are not part of hapi's core dependency, meaning they are not part of hapi's package.json dependencies property",
-  "iconName": "family.svg",
+  "iconName": "family",
   "categories": ["JavaScript"],
   "filePatterns": ["package.json$"]
 }
