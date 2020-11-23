@@ -129,6 +129,6 @@ https://www.contributor-covenant.org/translations.
 ## Appendix A: The TSC Email Alias
 
 *Note*: At the current time, all email sent to the `tsc@hapi.dev` email
-alias is copied to all members of the [hapi Technical Steering Committee](https://github.com/hapijs/.github/blob/master/README.md#tsc-members).
+alias is copied to all members of the [hapi Technical Steering Committee](https://github.com/hapijs/hapi#technical-steering-committee-tsc-members).
 
 [homepage]: https://www.contributor-covenant.org
