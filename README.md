@@ -5,12 +5,7 @@ Organization policies
 The hapi community consists (non-exclusively) of participants in GitHub issues and PRs throughout the organization, users of the the hapi [Slack](https://join.slack.com/t/hapihour/shared_invite/zt-g5ortpsk-ErlnRA2rUcPIWES21oXBOg), project contributors, and the Technical Steering Committee (TSC).
 
 ### TSC Members
- - Devin Ivy ([@devinivy](https://github.com/devinivy))
- - Jonas Pauthier ([@nargonath](https://github.com/nargonath))
- - Lloyd Benson ([@lloydbenson](https://github.com/lloydbenson))
- - Nathan LaFreniere ([@nlf](https://github.com/nlf))
- - Wyatt Lyon Preul ([@geek](https://github.com/geek))
- - Colin Ihrig ([@cjihrig](https://github.com/cjihrig))
+> See [list of TSC members](https://github.com/hapijs/hapi#technical-steering-committee-tsc-members)
 
 ## Code of Conduct
 > See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
