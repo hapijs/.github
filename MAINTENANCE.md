@@ -50,7 +50,7 @@ A release consists of 1. publishing a module to npm following [semver](https://s
 ### Guide
 When a new version of a module is ready to be published, _the releaser_ adheres to the following release process:
 
- - The releaser ensures the main branch of the repository has passing tests in Travis CI.
+ - The releaser ensures the main branch of the repository has passing tests in GitHub Actions.
  - Clones the repository locally if they haven't already.
  - Navigates to the repository on their machine locally.
  - Ensures they've checked-out the main branch and `git pull`.
