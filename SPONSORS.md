@@ -1,22 +1,29 @@
 We'd like to thank our sponsors as well as the legacy sponsors who have supported hapi throughout the years. Thanks so much for your support!
+
+# Staff Sponsors
+- [Big Room Studios](https://www.bigroomstudios.com/)
+
 # Top Sponsors
-- Fabian Gündel / DataWrapper.de
+- Fabian Gündel / [DataWrapper.de](https://www.datawrapper.de/)
 - Devin Stewart
-- Raider.IO
+- [Raider.IO](https://raider.io/)
+
 # Backers
 - Steev Hise
 - Aori Nevo
 - Egor Ivkin
 - Paulo Vieira
 - Vlad Harb
+
 # Donations
-- BuySellAds
 - Zack McCartney
 - MW Felker
 - Benjamin Altpeter
 - Andrii
 - Kanika Sud
+
 ## Legacy Sponsors
+
 ### Top Sponsors
 - Alexander Alimovs
 - Alvin Lumowa
@@ -72,6 +79,7 @@ We'd like to thank our sponsors as well as the legacy sponsors who have supporte
 - Umut Şirin
 - Viswanadha Pratap Kondoju
 - Yehor Sergeenko
+
 ### Supporters
 - Adam Recvlohe
 - Adilson Schmitt Junior
