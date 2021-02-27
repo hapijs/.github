@@ -2,6 +2,7 @@ We'd like to thank our sponsors as well as the legacy sponsors who have supporte
 
 # Staff Sponsors
 - [Big Room Studios](https://www.bigroomstudios.com/)
+- [Dixeed](https://dixeed.com/)
 
 # Top Sponsors
 - Fabian Gündel / [DataWrapper.de](https://www.datawrapper.de/)
