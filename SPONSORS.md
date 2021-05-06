@@ -10,6 +10,7 @@ We'd like to thank our sponsors as well as the legacy sponsors who have supporte
 - [Raider.IO](https://raider.io/)
 
 # Backers
+- Zack McCartney
 - Steev Hise
 - Aori Nevo
 - Egor Ivkin
@@ -17,7 +18,7 @@ We'd like to thank our sponsors as well as the legacy sponsors who have supporte
 - Vlad Harb
 
 # Donations
-- Zack McCartney
+- James Wragg
 - MW Felker
 - Benjamin Altpeter
 - Andrii
