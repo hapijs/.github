@@ -5,6 +5,7 @@ We'd like to thank our sponsors as well as the legacy sponsors who have supporte
 - [Dixeed](https://dixeed.com/)
 
 # Top Sponsors
+- [John Wiley & Sons Ltd](https://www.wiley.com/)
 - Fabian Gündel / [DataWrapper.de](https://www.datawrapper.de/)
 - Devin Stewart
 - [Raider.IO](https://raider.io/)
