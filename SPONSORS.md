@@ -9,6 +9,7 @@ We'd like to thank our sponsors as well as the legacy sponsors who have supporte
 - Fabian Gündel / [DataWrapper.de](https://www.datawrapper.de/)
 - Devin Stewart
 - [Raider.IO](https://raider.io/)
+- [Florence Healthcare](https://florencehc.com/)
 
 # Backers
 - Zack McCartney
