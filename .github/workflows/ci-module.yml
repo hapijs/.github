@@ -2,6 +2,11 @@ name: ci
 
 on:
   workflow_call:
+    inputs:
+      min-node-version:
+        description: 'The minimum version of nodejs with which to run the workflow'
+        required: false
+        type: number
 
 jobs:
   test:
@@ -9,7 +14,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu, windows, macos]
-        node: ["*", "14", "12"]
+        node: ${{ inputs.min-node-version == 14 && fromJSON('["*", "16", "14"]') || fromJSON('["16", "14", "12"]') }}
 
     runs-on: ${{ matrix.os }}-latest
     name: ${{ matrix.os }} node@${{ matrix.node }}
