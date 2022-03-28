@@ -5,8 +5,8 @@ on:
     inputs:
       min-node-version:
         description: 'The minimum version of nodejs with which to run the workflow'
-        required: false
         type: number
+        required: false
 
 jobs:
   test:

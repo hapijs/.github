@@ -2,12 +2,11 @@ name: ci
 
 on:
   workflow_call:
-
-inputs:
-  min-node-version:
-    description: 'The minimum version of nodejs with which to run the workflow'
-    required: false
-    type: number
+    inputs:
+      min-node-version:
+        description: 'The minimum version of nodejs with which to run the workflow'
+        type: number
+        required: false
 
 jobs:
   test:
