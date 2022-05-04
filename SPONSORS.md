@@ -1,10 +1,11 @@
 We'd like to thank our sponsors as well as the legacy sponsors who have supported hapi throughout the years. Thanks so much for your support!
 
 # Staff Sponsors
+
 - [Big Room Studios](https://www.bigroomstudios.com/)
-- [Dixeed](https://dixeed.com/)
 
 # Top Sponsors
+
 - [John Wiley & Sons Ltd](https://www.wiley.com/)
 - Fabian Gündel / [DataWrapper.de](https://www.datawrapper.de/)
 - Devin Stewart
@@ -12,6 +13,7 @@ We'd like to thank our sponsors as well as the legacy sponsors who have supporte
 - [Florence Healthcare](https://florencehc.com/)
 
 # Backers
+
 - Zack McCartney
 - Steev Hise
 - Aori Nevo
@@ -20,15 +22,21 @@ We'd like to thank our sponsors as well as the legacy sponsors who have supporte
 - Vlad Harb
 
 # Donations
+
 - James Wragg
 - MW Felker
 - Benjamin Altpeter
 - Andrii
 - Kanika Sud
 
-## Legacy Sponsors
+# Legacy Sponsors
 
-### Top Sponsors
+## Staff sponsors
+
+- [Dixeed](https://dixeed.com/)
+
+## Top Sponsors
+
 - Alexander Alimovs
 - Alvin Lumowa
 - Andreas Zeuch
@@ -84,7 +92,8 @@ We'd like to thank our sponsors as well as the legacy sponsors who have supporte
 - Viswanadha Pratap Kondoju
 - Yehor Sergeenko
 
-### Supporters
+## Supporters
+
 - Adam Recvlohe
 - Adilson Schmitt Junior
 - Alexander Springer
