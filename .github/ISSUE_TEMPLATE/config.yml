@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Slack
+    url: https://join.slack.com/t/hapihour/shared_invite/zt-g5ortpsk-ErlnRA2rUcPIWES21oXBOg
+    about: Engage with the community and maintainers about your questions and ideas on Slack.
+  - name: Discord
+    url: https://discord.gg/YYxZhpKKvu
+    about: Engage with the community and maintainers about your questions and ideas on Discord.

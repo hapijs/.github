@@ -1,0 +1,23 @@
+name: Documentation issue
+description: Report incorrect, incomplete, or missing documentation
+labels:
+  - documentation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before opening a documentation issue, please consider opening a Pull Request instead for trivial changes such as typos, spelling, incorrect links, anchors, or other corrections that are easier to just fix than report using this template.
+
+        Please do not spend valuable time proposing extensive changes to the documentation before first asking about it. We value your time and do not want to waste it. Just open an issue first using this template and ask if your proposed changes would be helpful.
+
+        Make sure to wrap all code examples in backticks so that they display correctly. Before submitting an issue, make sure to click on the Preview tab to verify everything is formatted correctly.
+  - type: input
+    attributes:
+      label: Module version
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What documentation problem did you notice?
+    validations:
+      required: true
