@@ -1,0 +1,37 @@
+name: Feature request
+description: Suggest an idea or request an enhancement
+labels:
+  - feature
+body:
+  - type: input
+    attributes:
+      label: Runtime
+      description: (e.g. node.js, browser, ...)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Runtime version
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Module version
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Used with
+      description: (e.g. hapi application, another framework, standalone, ...)
+  - type: textarea
+    attributes:
+      label: Any other relevant information
+  - type: textarea
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe your issue in detail, including use cases, examples, and alternative solutions you have already tried. Make sure to wrap all code examples in backticks so that they display correctly. Before submitting an issue, make sure to click on the Preview tab to verify everything is formatted correctly.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Do you have a new or modified API suggestion to solve the problem?
