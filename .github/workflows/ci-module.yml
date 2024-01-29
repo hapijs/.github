@@ -14,7 +14,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu, windows, macos]
-        node: ${{ inputs.min-node-version == 14 && fromJSON('["*", "20", "18", "16", "14"]') || fromJSON('["16", "14", "12"]') }}
+        node: ${{ inputs.min-node-version == 14 && fromJSON('["latest", "20", "18", "16", "14"]') || fromJSON('["16", "14", "12"]') }}
 
     runs-on: ${{ matrix.os }}-latest
     name: ${{ matrix.os }} node@${{ matrix.node }}
@@ -23,7 +23,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-          check-latest: ${{ matrix.node == '*' }}
       - name: install
         run: npm install
       - name: test
