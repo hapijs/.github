@@ -13,11 +13,11 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu, windows, macos]
+        os: [[ubuntu, latest], [windows, latest], [macos, 11]]
         node: ${{ inputs.min-node-version == 14 && fromJSON('["latest", "20", "18", "16", "14"]') || fromJSON('["16", "14", "12"]') }}
 
-    runs-on: ${{ matrix.os }}-latest
-    name: ${{ matrix.os }} node@${{ matrix.node }}
+    runs-on: ${{ join(matrix.os, '-') }}
+    name: ${{ matrix.os[0] }} node@${{ matrix.node }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
