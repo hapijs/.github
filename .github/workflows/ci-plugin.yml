@@ -17,12 +17,12 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu, windows, macos]
+        os: [[ubuntu, latest], [windows, latest], [macos, 11]]
         node: ${{ inputs.min-node-version == 14 && fromJSON('["latest", "20", "18", "16", "14"]') || fromJSON('["16", "14", "12"]') }}
         hapi: ${{ inputs.min-hapi-version == 20 && fromJSON('["next", "20"]') || fromJSON('["20", "19"]') }}
 
-    runs-on: ${{ matrix.os }}-latest
-    name: ${{ matrix.os }} node@${{ matrix.node }} hapi@${{ matrix.hapi }}
+    runs-on: ${{ join(matrix.os, '-') }}
+    name: ${{ matrix.os[0] }} node@${{ matrix.node }} hapi@${{ matrix.hapi }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
