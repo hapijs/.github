@@ -9,7 +9,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu, windows, macos]
-        node: ['latest', '20', '18']
+        node: ['latest', '22', '20', '18']
         hapi: ['next', '21']
 
     runs-on: ${{ matrix.os }}-latest
