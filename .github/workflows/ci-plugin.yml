@@ -17,7 +17,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [[ubuntu, latest], [windows, latest], [macos, 11]]
+        os: [[ubuntu, latest], [windows, latest]]
         node: ${{ inputs.min-node-version == 14 && fromJSON('["latest", "20", "18", "16", "14"]') || fromJSON('["16", "14", "12"]') }}
         hapi: ${{ inputs.min-hapi-version == 20 && fromJSON('["next", "20"]') || fromJSON('["20", "19"]') }}
 
