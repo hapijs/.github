@@ -16,7 +16,7 @@ The hapi ecosystem serves thousands of applications in production. A change to a
 
 ## Tests are not optional
 
-Nothing will be accepted without tests. Contributions must include tests that demonstrate the change works and that document the intended behavior. If you are fixing a bug, include a test that fails without the fix. If you are adding a feature, include tests that cover its contract. Coverage requirements (`-t 100`) are enforced.
+Nothing will be accepted without tests. Contributions must include tests that demonstrate the change works and that document the intended behavior. If you are fixing a bug, include a test that fails without the fix. If you are adding a feature, include tests that cover its contract.
 
 ## Document what you change
 
