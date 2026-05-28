@@ -16,5 +16,8 @@ The hapi community consists (non-exclusively) of participants in GitHub issues a
 ## Sponsors
 > See [SPONSORS.md](SPONSORS.md)
 
+## AI-Assisted Contributions
+> See [AI_POLICY.md](AI_POLICY.md)
+
 ## Maintenance of Issues, PRs, and Releases
 > See [MAINTENANCE.md](MAINTENANCE.md)
