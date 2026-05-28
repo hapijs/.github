@@ -3,22 +3,26 @@ name: ci
 on:
   workflow_call:
 
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   test:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu, windows, macos]
-        node: ['latest', '22', '24']
-
-    runs-on: ${{ matrix.os }}-latest
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        node: ['latest', 'lts/*', '22', '24']
+    runs-on: ${{ matrix.os }}
     name: ${{ matrix.os }} node@${{ matrix.node }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
-      - name: install
-        run: npm install
-      - name: test
-        run: npm test
+      - run: npm install
+      - run: npm test
