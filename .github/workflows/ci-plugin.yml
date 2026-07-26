@@ -25,6 +25,10 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
+      # Node 22 ships npm 10, whose dependency resolver crashes on some
+      # optional-peer graphs with "Cannot read properties of null (reading
+      # edgesOut)". Upgrading first keeps the node@22 legs usable.
+      - run: npm install -g npm@latest
       - run: npm install
       - run: npm install @hapi/hapi@${{ matrix.hapi }}
       - run: npm test
